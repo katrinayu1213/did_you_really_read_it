@@ -35,6 +35,7 @@ def clean_student_response(response):
     bad_chars = [';', ':', ".","[","]","#",'!',"?","*", "/", "@", "(", ")", "<", ">", "|", "-", ",", "&", "0", "1", "2", "3","4", "5", "6","7","8","9"]
     for i in bad_chars :
         cleaned_response = response.replace(i, '')
+        response = cleaned_response
     print(cleaned_response)
     return cleaned_response
 
