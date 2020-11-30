@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1= title
+  h2 Highest Similarity Scores
+  -let i = 0;
+  table(style='width:95%',border='0')
+    tr
+      th # 
+      th User
+      th Date
+      th Ref Text
+      th Words
+      th Similarity
+      th Notes
+      th(style='width:500px') Summary
+    each summary in topSummaries
+      - i++;
+      tr
+        td #{i}. 
+        td #{summary.user_name}
+        td #{summary.date_added}
+        td #{summary.reference_text_id}
+        td #{summary.word_count}
+        td #{summary.lsa_similarity}
+        td
+          if summary.word_count < 14
+            strong(style='color:red') SHORT
+        td #{summary.summary_text}

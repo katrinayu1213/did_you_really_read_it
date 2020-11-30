@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1=title
+  if error
+    p Error getting dynamic content.
+  else
+    p The Summary Demo Tool has the following stats:
+  ul
+    li #[strong Summaries Submitted:] #{summaryCount}
