@@ -40,7 +40,7 @@ def build_model_with_ref(corpus_doc_csv):
     """
 
     # add in reference text to first row of corpus  
-    with open('./python/did_you_really_read_it/ref_text_jungle.txt', 'r') as file:
+    with open('./python/ref_text_jungle.txt', 'r') as file:
         ref_text = file.read().replace('\n', '')
 
     df = pd.read_csv(corpus_doc_csv, engine= 'python')
@@ -104,7 +104,7 @@ def query_lsa(response, dictionary, lsi, corpus):
     return lsa_score
 
 # call the functions here 
-dictionary, lsi, corpus = build_model_with_ref("./python/did_you_really_read_it/news_combined.csv")
+dictionary, lsi, corpus = build_model_with_ref("./python/news_combined.csv")
 query_lsa(sys.argv[1], dictionary, lsi, corpus)
 
 
