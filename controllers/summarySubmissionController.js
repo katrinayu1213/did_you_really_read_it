@@ -51,7 +51,7 @@ exports.submitSummaryPost = [
             const spawn = require("child_process").spawn;
             const pythonProcess = spawn(
                 'python',
-                ["./python/did_you_really_read_it/lsa_with_news_corpus.py", req.body.userSummary]);
+                ["./python/lsa_with_news_corpus.py", req.body.userSummary]);
             pythonProcess.stdout.on('data', function(data) { 
                 //res.send(data.toString()); 
                 console.log(data.toString());
