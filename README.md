@@ -57,7 +57,7 @@ Lastly, here's a list of ideas for further implementation:
 * plagiarism check with Levenshtein distance
 * a larger corpus (We attempted using TASA but we could not rebuild the model with reference text since it is a predefined LSA space and documents for corpus were inaccessible) 
 
-For reference on related projects, there is an open-source tool called [SEMILAR](http://www.semanticsimilarity.org/) for assessing the similarity of texts. Another project that is most related is [Crossley, Allen, Kim, McNamara's work on ASE Using Natural Language Processing Tools](https://www.researchgate.net/publication/333909045_Automated_Summarization_Evaluation_ASE_Using_Natural_Language_Processing_Tools) 
+For reference on related projects, there is an open-source tool called [SEMILAR](http://www.semanticsimilarity.org/) for assessing the similarity of texts. Another project that is most related is [Allen, Crossley, Kim et. al's work on ASE Using Natural Language Processing Tools](https://www.researchgate.net/publication/333909045_Automated_Summarization_Evaluation_ASE_Using_Natural_Language_Processing_Tools) 
 
 ## Acknowledgements
 Credits to the team: The Learning Agency, Erica Snow, Matt Jacovina, and Katrina Yu
