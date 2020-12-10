@@ -7,7 +7,7 @@ This tool is designed to be generalizable in its ability to accurately assess su
 
 ## Installation
 
-You can run a prototype of the Summarizer Tool. Once you have installed npm, Node.js, and Express, clone the repository into your directory. The prototype is stored in a branch called "site".
+You can run a prototype of the Summarizer Tool <strong>on the branch called "site".</strong> Once you have installed npm, Node.js, and Express, clone the repository into your directory. Remember to switch from master to site! 
 
 ```bash
 git checkout site
