@@ -53,8 +53,9 @@ Another issue is that the current implementation of the LSA has a limited score 
 Lastly, here's a list of ideas for further implementation: 
 
 * incorporating lemmatization and stemming
-* word2vec to assess student summary
-* plagiarism check with Levenshtein distance
+* word2vec 
+* type token ratio (TTR) for content words
+* Prevent hacking the algorithm: plagiarism check with Levenshtein distance/direct quotes; minimum number of words and sentences; minimum TTR
 * a larger corpus (We attempted using TASA but we could not rebuild the model with reference text since it is a predefined LSA space and documents for corpus were inaccessible) 
 
 <strong>List of ideas to improve the prototype</strong>
