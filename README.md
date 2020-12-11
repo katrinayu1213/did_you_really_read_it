@@ -57,6 +57,15 @@ Lastly, here's a list of ideas for further implementation:
 * plagiarism check with Levenshtein distance
 * a larger corpus (We attempted using TASA but we could not rebuild the model with reference text since it is a predefined LSA space and documents for corpus were inaccessible) 
 
+<strong>List of ideas to improve the prototype</strong>
+
+* prevent copy and pasting
+* allow user to input a new reference text
+* allow the user to upload a folder containing all the student responses in separate files 
+* develop a "low-quality: did not read properly" vs "high quality: good comprehension" rubric
+* create an easy-to-read result page 
+
+
 For reference on related projects, there is an open-source tool called [SEMILAR](http://www.semanticsimilarity.org/) for assessing the similarity of texts. Another project that is most related is [Allen, Crossley, Kim et. al's work on ASE Using Natural Language Processing Tools](https://www.researchgate.net/publication/333909045_Automated_Summarization_Evaluation_ASE_Using_Natural_Language_Processing_Tools) 
 
 ## Acknowledgements
